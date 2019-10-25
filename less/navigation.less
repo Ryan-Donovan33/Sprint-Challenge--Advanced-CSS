@@ -1,1 +1,25 @@
 // Navigation code here
+
+.navigation {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	.spacing(2%, 2%);
+
+	h2 {
+		text-align: center;
+		.spacing(0, 1%);
+		font-size: 5rem;
+	}
+
+	nav {
+		.flex-layout(center, none);
+
+		a {
+			text-decoration: none;
+			font-size: 2rem;
+			color: @ebony-clay;
+			.spacing(0, 2%);
+		}
+	}
+}
