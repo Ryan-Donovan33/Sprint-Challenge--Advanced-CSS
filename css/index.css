@@ -162,6 +162,8 @@ p {
 }
 .navigation {
   display: flex;
+  justify-content: none;
+  align-content: none;
   flex-direction: column;
   background-color: #f1f1f1;
   width: 100%;
@@ -178,6 +180,14 @@ p {
   display: flex;
   justify-content: center;
   align-content: none;
+}
+@media (max-width: 500px) {
+  .navigation nav {
+    display: flex;
+    justify-content: space-around;
+    align-content: none;
+    width: 100%;
+  }
 }
 .navigation nav a {
   text-decoration: none;

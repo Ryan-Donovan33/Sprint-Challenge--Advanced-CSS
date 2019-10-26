@@ -1,7 +1,7 @@
 // Navigation code here
 
 .navigation {
-	display: flex;
+	.flex-layout(none, none);
 	flex-direction: column;
 	background-color: @sea-shell;
 	width: 100%;
@@ -15,6 +15,11 @@
 
 	nav {
 		.flex-layout(center, none);
+
+		@media @phone {
+			.flex-layout(space-around, none);
+			width: 100%;
+		}
 
 		a {
 			text-decoration: none;
