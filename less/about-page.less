@@ -34,16 +34,16 @@
 		display: flex;
 		flex-direction: column;
 		width: 100%;
-		.spacing(5%, 5%);
 	}
+}
 
-	.spacewalk-img {
-		display: flex;
-		width: 100%;
+.spacewalk-img {
+	.flex-layout(none, none);
+	width: 95%;
 
-		.above-earth {
-			width: 100%;
-			height: 70vh;
-		}
+	img {
+		.flex-layout(space-around, none);
+		width: 75%;
+		height: 70vh;
 	}
 }
