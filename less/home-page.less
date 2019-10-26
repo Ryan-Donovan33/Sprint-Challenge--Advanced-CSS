@@ -61,13 +61,16 @@
 
 		@media @phone {
 			flex-direction: column-reverse;
+			width: 100%;
+			.spacing(0, 2%);
 		}
 
 		.walk-text {
 			width: 50%;
 
 			@media @phone {
-				width: 95%;
+				width: 100%;
+				.spacing(0, 1%);
 			}
 
 			h3 {
@@ -83,6 +86,8 @@
 
 				@media @phone {
 					width: 95%;
+					.spacing(0, 5%);
+					font-size: 1.8rem;
 				}
 			}
 		}
@@ -93,7 +98,8 @@
 
 			@media @phone {
 				width: 95%;
-				.spacing(0, 1%);
+				height: auto;
+				.spacing(0, 2%);
 			}
 
 			img {
