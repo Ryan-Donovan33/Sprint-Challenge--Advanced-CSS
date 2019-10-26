@@ -290,8 +290,8 @@ footer {
   background-color: #23293b;
 }
 .home .walk .walk-text .btn:hover {
-  color: black;
-  background-color: silver;
+  color: #000000;
+  background-color: #d3d3d3;
 }
 @media (max-width: 500px) {
   .home .walk .walk-text .btn {
