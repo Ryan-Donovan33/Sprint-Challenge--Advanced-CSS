@@ -1,1 +1,31 @@
 // Navigation code here
+
+.navigation {
+	.flex-layout(none, none);
+	flex-direction: column;
+	background-color: @sea-shell;
+	width: 100%;
+	.spacing(1%, 1%);
+
+	h2 {
+		text-align: center;
+		.spacing(0, 1%);
+		font-size: 5rem;
+	}
+
+	nav {
+		.flex-layout(center, none);
+
+		@media @phone {
+			.flex-layout(space-around, none);
+			width: 100%;
+		}
+
+		a {
+			text-decoration: none;
+			font-size: 2rem;
+			color: @ebony-clay;
+			.spacing(0, 2%);
+		}
+	}
+}
